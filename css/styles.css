@@ -1,0 +1,32 @@
+/* main background color: #E5E5E5 */
+/* secondary background color: #F5F4FA */
+/* main text color: #212121 */
+/* secondary text&accent color: #2196f3 */
+/* hero & button text color: #ffffff */
+/* main font: roboto */
+/* logo font: raleway */
+
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+span.accent {
+  color: #2196f3;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #2f303a;
+}
