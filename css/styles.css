@@ -1,6 +1,6 @@
-/* main background color: #ffffff */
+/* primary background color: #ffffff */
 /* secondary background color: #F5F4FA */
-/* main text color: #212121 */
+/* primary text color: #212121 */
 /* secondary text color: #ffffff */
 /* thirdy text color: #757575 */
 /* accent color: #2196f3 */
@@ -8,17 +8,17 @@
 /* Начало блока стилей основы и главной  */
 
 :root {
-  --main-background-color: #ffffff;
+  --primary-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
-  --main-text-color: #212121;
+  --primary-text-color: #212121;
   --secondary-text-color: #ffffff;
   --thirdy-text-color: #757575;
   --accent-color: #2196f3;
 }
 
 body {
-  background-color: var(--main-background-color);
-  color: var(--main-text-color);
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
 
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -37,7 +37,7 @@ address {
 }
 
 header {
-  background-color: var(--main-background-color);
+  background-color: var(--primary-background-color);
 }
 
 .header-logo {
@@ -64,7 +64,7 @@ span.logo-accent {
 }
 
 .header-link {
-  color: var(--main-text-color);
+  color: var(--primary-text-color);
 }
 
 address .contacts-link {
@@ -103,7 +103,7 @@ address .contacts-link {
   border-width: 0;
 }
 
-.advantages-main-title,
+.advantages-primary-title,
 .portfolio-hero {
   color: rgba(255, 255, 255, 0);
 }
